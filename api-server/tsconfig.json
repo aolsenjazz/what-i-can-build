@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "es2020",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+
+    "module": "commonjs",
+    "baseUrl": "./",
+    "resolveJsonModule": true,
+    "allowJs": true /* We occasionally need to load CommonJS config files */,
+    "checkJs": true /* We occasionally need to load CommonJS config files */,
+
+    "declaration": false,
+    "outDir": "./dist",
+
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+
+    "strict": true,
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+
+    "skipLibCheck": true
+  },
+  "include": ["src/**/*", "database/**/*.ts"]
+}

@@ -3,6 +3,17 @@ The intent of this monorepo is to show prospective employers (hopefully you) how
 
 I'm pretty good with a number of other technologies/patterns (like [Electron](github.com/aolsenjazz/super-controller) or [WebAudio](github.com/aolsenjazz/libsamplerate-js)), so please note that this project doesn't represent _all_ of my skills - just the most broad, foundational ones!
 
+## Run the local development environment
+Every application in this repo is completely containerized; even the development environment runs in its own docker container. In addition, we run 2 more docker containers for MySQL. They can all be stopped/started using `docker compose up` and `docker compose down`
+
+```
+# Assuming docker compose v2. If using v1, use docker-compose
+git clone https://github.com/aolsenjazz/what-i-can-build
+cd what-i-can-build
+docker compose up -d # build all service containers
+docker compose exec api_server npm run seed # seed the API database
+```
+
 ## Architecture, structure and technologies
 This project uses Github actions for CI/CD. It's secured using intelligent AWS security settings and making use of environment variables at every layer of the application.
 

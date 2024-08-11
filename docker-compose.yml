@@ -1,0 +1,52 @@
+services:
+  
+  # MySQL instance for the API server
+  # ---------------------------------
+  # This service runs a MySQL 8.0 instance specifically for the API server.
+  # It is configured using environment variables defined in the .env file.
+  # The MySQL server is exposed on the default port 3306.
+  # Data is persisted using a Docker-managed volume (mysql_api_data).
+  api_db:
+    image: mysql:8.0
+    command: >
+      --default-authentication-plugin=mysql_native_password
+    container_name: api_db
+    environment:
+      - MYSQL_ROOT_PASSWORD=${API_DB_ROOT_PASSWORD:-root}
+      - MYSQL_DATABASE=${API_DB_DATABASE:-main}
+      - MYSQL_USER=${API_DB_USER:-default}
+      - MYSQL_PASSWORD=${API_DB_PASSWORD:-default}
+    volumes:
+      - mysql_api_data:/var/lib/mysql
+    healthcheck:
+      test: ["CMD", "mysqladmin", "--host=localhost", "--user=${API_DB_USER:-default}", "--password=${API_DB_PASSWORD:-default}", "ping"]
+      interval: 5s
+      timeout: 2s
+      retries: 5
+
+  # API server
+  # ----------
+  # The main API service, which depends on the api_db service for its database.
+  # This service will not start until the api_db service is ready.
+  api_server:
+    build:
+      context: ./api-server
+      target: development
+    container_name: api_server
+    environment:
+      - DB_PORT=${API_DB_PORT:-3306}
+      - DB_DATABASE=${API_DB_DATABASE:-main}
+      - DB_USER=${API_DB_USER:-default}
+      - DB_PASSWORD=${API_DB_PASSWORD:-default}
+      - DB_HOST=${API_DB_HOST:-api_db}
+    ports:
+      - "3001:3000"
+    volumes:
+      - ./api-server:/app
+      - /app/node_modules
+    depends_on:
+      api_db:
+        condition: service_healthy
+
+volumes:
+  mysql_api_data:
