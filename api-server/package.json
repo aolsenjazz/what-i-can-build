@@ -10,7 +10,10 @@
     "lint": "eslint",
     "test": "jest",
     "migrate": "typeorm migration:run -d ./ormconfig.mjs",
-    "seed": "tsx scripts/seed.ts"
+    "seed": "tsx scripts/seed.ts",
+    "migration:generate": "npx typeorm-ts-node-commonjs  migration:generate ./src/database/migrations/migration -d src/database/mysql-data-source.ts",
+    "migration:revert": "npx typeorm-ts-node-commonjs migration:revert -d src/database/mysql-data-source.ts",
+    "migration:run": "npx typeorm-ts-node-commonjs migration:run -d src/database/mysql-data-source.ts"
   },
   "author": "Alexander Olsen",
   "license": "MIT",
@@ -18,7 +21,6 @@
     "type": "git",
     "url": "https://github.com/aolsenjazz/what-i-can-build.git"
   },
-  "type": "module",
   "dependencies": {
     "express": "^4.19.2",
     "mysql2": "^3.11.0",
