@@ -23,7 +23,6 @@ import maintenanceLogs from './seed-data/maintenance-logs-data.json';
 import deviceConfigurations from './seed-data/devices-configuration-data.json';
 
 async function seed() {
-  console.log('hello');
   await AppDataSource.initialize();
   await AppDataSource.runMigrations();
 
