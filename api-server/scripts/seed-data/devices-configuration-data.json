@@ -1,0 +1,72 @@
+[
+  {
+    "device_serial_number": "RS-001",
+    "configuration_name": "Default Configuration",
+    "configuration_value": "{\"screen_brightness\": \"80%\", \"auto_update\": true, \"resolution\": \"1080p\", \"encryption\": \"AES-256\", \"localization\": \"en-US\"}",
+    "updated_at": "2024-02-15T08:00:00Z",
+    "updated_by": 1
+  },
+  {
+    "device_serial_number": "RS-002",
+    "configuration_name": "Default Configuration",
+    "configuration_value": "{\"screen_brightness\": \"80%\", \"auto_update\": true, \"resolution\": \"1080p\", \"encryption\": \"AES-256\", \"localization\": \"en-US\"}",
+    "updated_at": "2024-02-20T08:00:00Z",
+    "updated_by": 1
+  },
+  {
+    "device_serial_number": "RS-003",
+    "configuration_name": "Default Configuration",
+    "configuration_value": "{\"screen_brightness\": \"80%\", \"auto_update\": true, \"resolution\": \"1080p\", \"encryption\": \"AES-256\", \"localization\": \"en-US\"}",
+    "updated_at": "2024-03-01T08:00:00Z",
+    "updated_by": 2
+  },
+  {
+    "device_serial_number": "SM-001",
+    "configuration_name": "Default Configuration",
+    "configuration_value": "{\"screen_brightness\": \"80%\", \"auto_update\": true, \"resolution\": \"1080p\", \"encryption\": \"AES-256\", \"localization\": \"en-US\"}",
+    "updated_at": "2024-02-25T08:00:00Z",
+    "updated_by": 4
+  },
+  {
+    "device_serial_number": "MG-001",
+    "configuration_name": "Default Configuration",
+    "configuration_value": "{\"screen_brightness\": \"80%\", \"auto_update\": true, \"resolution\": \"1080p\", \"encryption\": \"AES-256\", \"localization\": \"en-US\"}",
+    "updated_at": "2024-03-05T08:00:00Z",
+    "updated_by": 5
+  },
+  {
+    "device_serial_number": "MG-002",
+    "configuration_name": "Default Configuration",
+    "configuration_value": "{\"screen_brightness\": \"80%\", \"auto_update\": true, \"resolution\": \"1080p\", \"encryption\": \"AES-256\", \"localization\": \"en-US\"}",
+    "updated_at": "2024-03-10T08:00:00Z",
+    "updated_by": 6
+  },
+  {
+    "device_serial_number": "PS-001",
+    "configuration_name": "Default Configuration",
+    "configuration_value": "{\"screen_brightness\": \"80%\", \"auto_update\": true, \"resolution\": \"1080p\", \"encryption\": \"AES-256\", \"localization\": \"en-US\"}",
+    "updated_at": "2024-03-15T08:00:00Z",
+    "updated_by": 7
+  },
+  {
+    "device_serial_number": "SP-001",
+    "configuration_name": "Default Configuration",
+    "configuration_value": "{\"screen_brightness\": \"80%\", \"auto_update\": true, \"resolution\": \"1080p\", \"encryption\": \"AES-256\", \"localization\": \"en-US\"}",
+    "updated_at": "2024-03-20T08:00:00Z",
+    "updated_by": 8
+  },
+  {
+    "device_serial_number": "SP-002",
+    "configuration_name": "Default Configuration",
+    "configuration_value": "{\"screen_brightness\": \"80%\", \"auto_update\": true, \"resolution\": \"1080p\", \"encryption\": \"AES-256\", \"localization\": \"en-US\"}",
+    "updated_at": "2024-03-25T08:00:00Z",
+    "updated_by": 9
+  },
+  {
+    "device_serial_number": "SF-001",
+    "configuration_name": "Default Configuration",
+    "configuration_value": "{\"screen_brightness\": \"80%\", \"auto_update\": true, \"resolution\": \"1080p\", \"encryption\": \"AES-256\", \"localization\": \"en-US\"}",
+    "updated_at": "2024-03-30T08:00:00Z",
+    "updated_by": 10
+  }
+]

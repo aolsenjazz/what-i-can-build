@@ -4,13 +4,12 @@
   "description": "REST API for accessing Vigient application data",
   "main": "dist/server.js",
   "scripts": {
-    "dev": "tsx watch src/server.ts",
+    "dev": "nodemon src/server.ts",
     "watch-package": "nodemon --watch package.json --exec \"npm prune && npm install\"",
     "build": "tsc",
     "lint": "eslint",
     "test": "jest",
-    "migrate": "typeorm migration:run -d ./ormconfig.mjs",
-    "seed": "tsx scripts/seed.ts",
+    "seed": "ts-node scripts/seed.ts",
     "migration:generate": "npx typeorm-ts-node-commonjs  migration:generate ./src/database/migrations/migration -d src/database/mysql-data-source.ts",
     "migration:revert": "npx typeorm-ts-node-commonjs migration:revert -d src/database/mysql-data-source.ts",
     "migration:run": "npx typeorm-ts-node-commonjs migration:run -d src/database/mysql-data-source.ts"
@@ -37,7 +36,7 @@
     "jest": "^29.7.0",
     "nodemon": "^3.1.4",
     "ts-jest": "^29.2.4",
-    "tsx": "^4.17.0",
+    "ts-node": "^10.9.2",
     "typescript": "^5.5.4"
   },
   "jest": {

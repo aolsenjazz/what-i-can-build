@@ -1,10 +1,11 @@
 {
   "compilerOptions": {
-    "target": "es2020",
+    "target": "es5",
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
 
     "module": "commonjs",
+    "moduleResolution": "node",
     "baseUrl": "./",
     "resolveJsonModule": true,
     "allowJs": true /* We occasionally need to load CommonJS config files */,

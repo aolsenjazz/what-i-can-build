@@ -1,0 +1,242 @@
+[
+  {
+    "username": "admin_raysecur",
+    "email": "admin@raysecur.com",
+    "full_name": "RaySecur Admin",
+    "role": "ADMIN"
+  },
+  {
+    "username": "admin_securemail",
+    "email": "admin@securemail.com",
+    "full_name": "SecureMail Admin",
+    "role": "ADMIN"
+  },
+  {
+    "username": "admin_mailguard",
+    "email": "admin@mailguard.de",
+    "full_name": "MailGuard Admin",
+    "role": "ADMIN"
+  },
+  {
+    "username": "admin_parcelshield",
+    "email": "admin@parcelshield.jp",
+    "full_name": "ParcelShield Admin",
+    "role": "ADMIN"
+  },
+  {
+    "username": "admin_safetypost",
+    "email": "admin@safetypost.com.au",
+    "full_name": "SafetyPost Admin",
+    "role": "ADMIN"
+  },
+  {
+    "username": "admin_safeparcel",
+    "email": "admin@safeparcel.ca",
+    "full_name": "SafeParcel Admin",
+    "role": "ADMIN"
+  },
+  {
+    "username": "admin_postsecure",
+    "email": "admin@postsecure.ch",
+    "full_name": "PostSecure Admin",
+    "role": "ADMIN"
+  },
+  {
+    "username": "admin_mailprotec",
+    "email": "admin@mailprotec.es",
+    "full_name": "MailProtec Admin",
+    "role": "ADMIN"
+  },
+  {
+    "username": "admin_securapost",
+    "email": "admin@securapost.it",
+    "full_name": "SecuraPost Admin",
+    "role": "ADMIN"
+  },
+  {
+    "username": "admin_postguard",
+    "email": "admin@postguard.ae",
+    "full_name": "PostGuard Admin",
+    "role": "ADMIN"
+  },
+  {
+    "username": "user_johndoe",
+    "email": "john.doe@raysecur.com",
+    "full_name": "John Doe",
+    "role": "USER"
+  },
+  {
+    "username": "user_janesmith",
+    "email": "jane.smith@securemail.com",
+    "full_name": "Jane Smith",
+    "role": "USER"
+  },
+  {
+    "username": "user_hansmuller",
+    "email": "hans.muller@mailguard.de",
+    "full_name": "Hans Müller",
+    "role": "USER"
+  },
+  {
+    "username": "user_taroyamada",
+    "email": "taro.yamada@parcelshield.jp",
+    "full_name": "Taro Yamada",
+    "role": "USER"
+  },
+  {
+    "username": "user_avabrown",
+    "email": "ava.brown@safetypost.com.au",
+    "full_name": "Ava Brown",
+    "role": "USER"
+  },
+  {
+    "username": "user_liamwilson",
+    "email": "liam.wilson@safeparcel.ca",
+    "full_name": "Liam Wilson",
+    "role": "USER"
+  },
+  {
+    "username": "user_emiliaschneider",
+    "email": "emilia.schneider@postsecure.ch",
+    "full_name": "Emilia Schneider",
+    "role": "USER"
+  },
+  {
+    "username": "user_carloslopez",
+    "email": "carlos.lopez@mailprotec.es",
+    "full_name": "Carlos Lopez",
+    "role": "USER"
+  },
+  {
+    "username": "user_giovannirossi",
+    "email": "giovanni.rossi@securapost.it",
+    "full_name": "Giovanni Rossi",
+    "role": "USER"
+  },
+  {
+    "username": "user_aishaalfarsi",
+    "email": "aisha.alfarsi@postguard.ae",
+    "full_name": "Aisha Al-Farsi",
+    "role": "USER"
+  },
+  {
+    "username": "user_davidjohnson",
+    "email": "david.johnson@raysecur.com",
+    "full_name": "David Johnson",
+    "role": "USER"
+  },
+  {
+    "username": "user_emilyclark",
+    "email": "emily.clark@securemail.com",
+    "full_name": "Emily Clark",
+    "role": "USER"
+  },
+  {
+    "username": "user_martinschmidt",
+    "email": "martin.schmidt@mailguard.de",
+    "full_name": "Martin Schmidt",
+    "role": "USER"
+  },
+  {
+    "username": "user_yukinakamura",
+    "email": "yuki.nakamura@parcelshield.jp",
+    "full_name": "Yuki Nakamura",
+    "role": "USER"
+  },
+  {
+    "username": "user_oliviamartin",
+    "email": "olivia.martin@safetypost.com.au",
+    "full_name": "Olivia Martin",
+    "role": "USER"
+  },
+  {
+    "username": "user_noahlee",
+    "email": "noah.lee@safeparcel.ca",
+    "full_name": "Noah Lee",
+    "role": "USER"
+  },
+  {
+    "username": "user_lucafischer",
+    "email": "luca.fischer@postsecure.ch",
+    "full_name": "Luca Fischer",
+    "role": "USER"
+  },
+  {
+    "username": "user_sofiahernandez",
+    "email": "sofia.hernandez@mailprotec.es",
+    "full_name": "Sofia Hernandez",
+    "role": "USER"
+  },
+  {
+    "username": "user_francescobianchi",
+    "email": "francesco.bianchi@securapost.it",
+    "full_name": "Francesco Bianchi",
+    "role": "USER"
+  },
+  {
+    "username": "user_zahraalmansouri",
+    "email": "zahra.almansouri@postguard.ae",
+    "full_name": "Zahra Al-Mansouri",
+    "role": "USER"
+  },
+  {
+    "username": "tech1",
+    "email": "tech1@raysecur.com",
+    "full_name": "Tech 1",
+    "role": "TECHNICIAN"
+  },
+  {
+    "username": "tech2",
+    "email": "tech2@securemail.com",
+    "full_name": "Tech 2",
+    "role": "TECHNICIAN"
+  },
+  {
+    "username": "tech3",
+    "email": "tech3@mailguard.de",
+    "full_name": "Tech 3",
+    "role": "TECHNICIAN"
+  },
+  {
+    "username": "tech4",
+    "email": "tech4@parcelshield.jp",
+    "full_name": "Tech 4",
+    "role": "TECHNICIAN"
+  },
+  {
+    "username": "tech5",
+    "email": "tech5@safetypost.com.au",
+    "full_name": "Tech 5",
+    "role": "TECHNICIAN"
+  },
+  {
+    "username": "tech6",
+    "email": "tech6@safeparcel.ca",
+    "full_name": "Tech 6",
+    "role": "TECHNICIAN"
+  },
+  {
+    "username": "tech7",
+    "email": "tech7@postsecure.ch",
+    "full_name": "Tech 7",
+    "role": "TECHNICIAN"
+  },
+  {
+    "username": "tech8",
+    "email": "tech8@mailprotec.es",
+    "full_name": "Tech 8",
+    "role": "TECHNICIAN"
+  },
+  {
+    "username": "tech9",
+    "email": "tech9@securapost.it",
+    "full_name": "Tech 9",
+    "role": "TECHNICIAN"
+  },
+  {
+    "username": "tech10",
+    "email": "tech10@postguard.ae",
+    "full_name": "Tech 10",
+    "role": "TECHNICIAN"
+  }
+]

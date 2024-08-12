@@ -1,0 +1,162 @@
+[
+  {
+    "device_serial_number": "RS-001",
+    "event_type": "SOFTWARE_UPDATED",
+    "event_severity": "MEDIUM",
+    "timestamp": 1692748800,
+    "json_payload": "{\"previous_version\": \"v2.0.0\", \"new_version\": \"v2.1.0\"}",
+    "user_id": 1
+  },
+  {
+    "device_serial_number": "RS-001",
+    "event_type": "DEVICE_STARTED",
+    "event_severity": "LOW",
+    "timestamp": 1692835200,
+    "json_payload": "{\"status\": \"Device restarted successfully\"}",
+    "user_id": 1
+  },
+  {
+    "device_serial_number": "RS-002",
+    "event_type": "INCIDENT_REPORT_GENERATED",
+    "event_severity": "HIGH",
+    "timestamp": 1692921600,
+    "json_payload": "{\"issue\": \"Unexpected restart during operation\", \"resolution\": \"Pending analysis\"}",
+    "user_id": 2
+  },
+  {
+    "device_serial_number": "RS-002",
+    "event_type": "MAINTENANCE_REQUIRED",
+    "event_severity": "MEDIUM",
+    "timestamp": 1693008000,
+    "json_payload": "{\"maintenance_type\": \"Software update required\"}",
+    "user_id": 2
+  },
+  {
+    "device_serial_number": "RS-003",
+    "event_type": "SOFTWARE_UPDATED",
+    "event_severity": "LOW",
+    "timestamp": 1693094400,
+    "json_payload": "{\"previous_version\": \"v2.1.0\", \"new_version\": \"v2.2.0\"}",
+    "user_id": 1
+  },
+  {
+    "device_serial_number": "RS-003",
+    "event_type": "DEVICE_SHUTDOWN",
+    "event_severity": "LOW",
+    "timestamp": 1693180800,
+    "json_payload": "{\"status\": \"Device shutdown for maintenance\"}",
+    "user_id": 2
+  },
+  {
+    "device_serial_number": "SM-001",
+    "event_type": "INCIDENT_REPORT_GENERATED",
+    "event_severity": "HIGH",
+    "timestamp": 1693267200,
+    "json_payload": "{\"issue\": \"Network disconnection\", \"resolution\": \"Restored connection\"}",
+    "user_id": 3
+  },
+  {
+    "device_serial_number": "SM-001",
+    "event_type": "DEVICE_STARTED",
+    "event_severity": "LOW",
+    "timestamp": 1693353600,
+    "json_payload": "{\"status\": \"Device started successfully after incident\"}",
+    "user_id": 3
+  },
+  {
+    "device_serial_number": "MG-001",
+    "event_type": "CRITICAL_ERROR",
+    "event_severity": "CRITICAL",
+    "timestamp": 1693440000,
+    "json_payload": "{\"error_code\": \"5003\", \"description\": \"Critical hardware failure detected\"}",
+    "user_id": 4
+  },
+  {
+    "device_serial_number": "MG-001",
+    "event_type": "MAINTENANCE_REQUIRED",
+    "event_severity": "MEDIUM",
+    "timestamp": 1693526400,
+    "json_payload": "{\"maintenance_type\": \"Hardware replacement needed\"}",
+    "user_id": 4
+  },
+  {
+    "device_serial_number": "MG-002",
+    "event_type": "SOFTWARE_UPDATED",
+    "event_severity": "MEDIUM",
+    "timestamp": 1693612800,
+    "json_payload": "{\"previous_version\": \"v2.0.0\", \"new_version\": \"v2.0.1\"}",
+    "user_id": 5
+  },
+  {
+    "device_serial_number": "MG-002",
+    "event_type": "DEVICE_STARTED",
+    "event_severity": "LOW",
+    "timestamp": 1693699200,
+    "json_payload": "{\"status\": \"Device restarted successfully after update\"}",
+    "user_id": 5
+  },
+  {
+    "device_serial_number": "PS-001",
+    "event_type": "INCIDENT_REPORT_GENERATED",
+    "event_severity": "HIGH",
+    "timestamp": 1693785600,
+    "json_payload": "{\"issue\": \"Security breach attempt\", \"resolution\": \"Breach prevented by firewall\"}",
+    "user_id": 6
+  },
+  {
+    "device_serial_number": "PS-001",
+    "event_type": "DEVICE_STARTED",
+    "event_severity": "LOW",
+    "timestamp": 1693872000,
+    "json_payload": "{\"status\": \"Device restarted after security incident\"}",
+    "user_id": 6
+  },
+  {
+    "device_serial_number": "SP-001",
+    "event_type": "SOFTWARE_UPDATED",
+    "event_severity": "LOW",
+    "timestamp": 1693958400,
+    "json_payload": "{\"previous_version\": \"v1.8.0\", \"new_version\": \"v1.9.0\"}",
+    "user_id": 7
+  },
+  {
+    "device_serial_number": "SP-001",
+    "event_type": "DEVICE_SHUTDOWN",
+    "event_severity": "LOW",
+    "timestamp": 1694044800,
+    "json_payload": "{\"status\": \"Device shutdown for maintenance\"}",
+    "user_id": 7
+  },
+  {
+    "device_serial_number": "SP-002",
+    "event_type": "MAINTENANCE_REQUIRED",
+    "event_severity": "MEDIUM",
+    "timestamp": 1694131200,
+    "json_payload": "{\"maintenance_type\": \"Hardware replacement needed\"}",
+    "user_id": 8
+  },
+  {
+    "device_serial_number": "SP-002",
+    "event_type": "DEVICE_STARTED",
+    "event_severity": "LOW",
+    "timestamp": 1694217600,
+    "json_payload": "{\"status\": \"Device restarted after maintenance\"}",
+    "user_id": 8
+  },
+  {
+    "device_serial_number": "SF-001",
+    "event_type": "INCIDENT_REPORT_GENERATED",
+    "event_severity": "HIGH",
+    "timestamp": 1694304000,
+    "json_payload": "{\"issue\": \"Overheating detected\", \"resolution\": \"System cooling initiated\"}",
+    "user_id": 9
+  },
+  {
+    "device_serial_number": "SF-001",
+    "event_type": "DEVICE_SHUTDOWN",
+    "event_severity": "LOW",
+    "timestamp": 1694390400,
+    "json_payload": "{\"status\": \"Device shutdown to prevent damage\"}",
+    "user_id": 9
+  }
+]
