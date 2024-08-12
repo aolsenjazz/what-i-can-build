@@ -1,0 +1,62 @@
+[
+  {
+    "name": "RaySecur Inc.",
+    "contact_info": "contact@raysecur.com",
+    "owner_type": "COMPANY",
+    "company_name": "RaySecur"
+  },
+  {
+    "name": "SecureMail Corp.",
+    "contact_info": "info@securemail.com",
+    "owner_type": "COMPANY",
+    "company_name": "SecureMail"
+  },
+  {
+    "name": "MailGuard GmbH",
+    "contact_info": "contact@mailguard.de",
+    "owner_type": "COMPANY",
+    "company_name": "MailGuard"
+  },
+  {
+    "name": "ParcelShield Japan",
+    "contact_info": "info@parcelshield.jp",
+    "owner_type": "COMPANY",
+    "company_name": "ParcelShield"
+  },
+  {
+    "name": "SafetyPost Pty Ltd",
+    "contact_info": "contact@safetypost.com.au",
+    "owner_type": "COMPANY",
+    "company_name": "SafetyPost"
+  },
+  {
+    "name": "SafeParcel Canada",
+    "contact_info": "info@safeparcel.ca",
+    "owner_type": "COMPANY",
+    "company_name": "SafeParcel"
+  },
+  {
+    "name": "PostSecure AG",
+    "contact_info": "contact@postsecure.ch",
+    "owner_type": "COMPANY",
+    "company_name": "PostSecure"
+  },
+  {
+    "name": "MailProtec S.L.",
+    "contact_info": "info@mailprotec.es",
+    "owner_type": "COMPANY",
+    "company_name": "MailProtec"
+  },
+  {
+    "name": "SecuraPost Italia",
+    "contact_info": "contact@securapost.it",
+    "owner_type": "COMPANY",
+    "company_name": "SecuraPost"
+  },
+  {
+    "name": "PostGuard Middle East",
+    "contact_info": "info@postguard.ae",
+    "owner_type": "COMPANY",
+    "company_name": "PostGuard"
+  }
+]

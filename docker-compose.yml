@@ -16,6 +16,8 @@ services:
       - MYSQL_DATABASE=${API_DB_DATABASE:-main}
       - MYSQL_USER=${API_DB_USER:-default}
       - MYSQL_PASSWORD=${API_DB_PASSWORD:-default}
+    ports:
+      - 3307:3306
     volumes:
       - mysql_api_data:/var/lib/mysql
     healthcheck:
