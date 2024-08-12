@@ -1,0 +1,142 @@
+[
+  {
+    "device_serial_number": "RS-001",
+    "maintenance_type": "SOFTWARE_UPDATE",
+    "performed_by": 1,
+    "timestamp": 1692748800,
+    "notes": "Updated to version v2.1.0"
+  },
+  {
+    "device_serial_number": "RS-001",
+    "maintenance_type": "HARDWARE_REPLACEMENT",
+    "performed_by": 2,
+    "timestamp": 1692835200,
+    "notes": "Replaced faulty power supply"
+  },
+  {
+    "device_serial_number": "RS-002",
+    "maintenance_type": "SOFTWARE_UPDATE",
+    "performed_by": 1,
+    "timestamp": 1692921600,
+    "notes": "Updated to version v2.1.1"
+  },
+  {
+    "device_serial_number": "RS-002",
+    "maintenance_type": "CLEANING",
+    "performed_by": 3,
+    "timestamp": 1693008000,
+    "notes": "Cleaned internal components"
+  },
+  {
+    "device_serial_number": "RS-003",
+    "maintenance_type": "SOFTWARE_UPDATE",
+    "performed_by": 1,
+    "timestamp": 1693094400,
+    "notes": "Updated to version v2.2.0"
+  },
+  {
+    "device_serial_number": "RS-003",
+    "maintenance_type": "HARDWARE_REPLACEMENT",
+    "performed_by": 2,
+    "timestamp": 1693180800,
+    "notes": "Replaced internal fan"
+  },
+  {
+    "device_serial_number": "SM-001",
+    "maintenance_type": "SOFTWARE_UPDATE",
+    "performed_by": 4,
+    "timestamp": 1693267200,
+    "notes": "Updated to version v2.1.1"
+  },
+  {
+    "device_serial_number": "SM-001",
+    "maintenance_type": "CLEANING",
+    "performed_by": 4,
+    "timestamp": 1693353600,
+    "notes": "Cleaned internal components"
+  },
+  {
+    "device_serial_number": "MG-001",
+    "maintenance_type": "SOFTWARE_UPDATE",
+    "performed_by": 5,
+    "timestamp": 1693440000,
+    "notes": "Updated to version v2.0.1"
+  },
+  {
+    "device_serial_number": "MG-001",
+    "maintenance_type": "HARDWARE_REPLACEMENT",
+    "performed_by": 5,
+    "timestamp": 1693526400,
+    "notes": "Replaced camera module"
+  },
+  {
+    "device_serial_number": "MG-002",
+    "maintenance_type": "SOFTWARE_UPDATE",
+    "performed_by": 6,
+    "timestamp": 1693612800,
+    "notes": "Updated to version v2.0.2"
+  },
+  {
+    "device_serial_number": "MG-002",
+    "maintenance_type": "CLEANING",
+    "performed_by": 6,
+    "timestamp": 1693699200,
+    "notes": "Cleaned internal components"
+  },
+  {
+    "device_serial_number": "PS-001",
+    "maintenance_type": "SOFTWARE_UPDATE",
+    "performed_by": 7,
+    "timestamp": 1693785600,
+    "notes": "Updated to version v2.3.1"
+  },
+  {
+    "device_serial_number": "PS-001",
+    "maintenance_type": "HARDWARE_REPLACEMENT",
+    "performed_by": 7,
+    "timestamp": 1693872000,
+    "notes": "Replaced security module"
+  },
+  {
+    "device_serial_number": "SP-001",
+    "maintenance_type": "SOFTWARE_UPDATE",
+    "performed_by": 8,
+    "timestamp": 1693958400,
+    "notes": "Updated to version v1.9.1"
+  },
+  {
+    "device_serial_number": "SP-001",
+    "maintenance_type": "CLEANING",
+    "performed_by": 8,
+    "timestamp": 1694044800,
+    "notes": "Cleaned internal components"
+  },
+  {
+    "device_serial_number": "SP-002",
+    "maintenance_type": "SOFTWARE_UPDATE",
+    "performed_by": 9,
+    "timestamp": 1694131200,
+    "notes": "Updated to version v1.9.2"
+  },
+  {
+    "device_serial_number": "SP-002",
+    "maintenance_type": "HARDWARE_REPLACEMENT",
+    "performed_by": 9,
+    "timestamp": 1694217600,
+    "notes": "Replaced internal power unit"
+  },
+  {
+    "device_serial_number": "SF-001",
+    "maintenance_type": "SOFTWARE_UPDATE",
+    "performed_by": 10,
+    "timestamp": 1694304000,
+    "notes": "Updated to version v2.0.6"
+  },
+  {
+    "device_serial_number": "SF-001",
+    "maintenance_type": "CLEANING",
+    "performed_by": 10,
+    "timestamp": 1694390400,
+    "notes": "Cleaned internal components"
+  }
+]

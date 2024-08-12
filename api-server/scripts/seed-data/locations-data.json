@@ -1,0 +1,92 @@
+[
+  {
+    "name": "RaySecur HQ",
+    "address": "123 Main St",
+    "city": "Cambridge",
+    "state": "MA",
+    "postal_code": "02142",
+    "country": "USA",
+    "company_name": "RaySecur"
+  },
+  {
+    "name": "RaySecur West Coast",
+    "address": "456 Market St",
+    "city": "San Francisco",
+    "state": "CA",
+    "postal_code": "94111",
+    "country": "USA",
+    "company_name": "RaySecur"
+  },
+  {
+    "name": "RaySecur Europe",
+    "address": "789 Rue de la Paix",
+    "city": "Paris",
+    "state": "Île-de-France",
+    "postal_code": "75002",
+    "country": "France",
+    "company_name": "RaySecur"
+  },
+  {
+    "name": "SecureMail NYC",
+    "address": "100 Wall St",
+    "city": "New York",
+    "state": "NY",
+    "postal_code": "10005",
+    "country": "USA",
+    "company_name": "SecureMail"
+  },
+  {
+    "name": "SecureMail London",
+    "address": "200 Fleet St",
+    "city": "London",
+    "state": "Greater London",
+    "postal_code": "EC4A 2",
+    "country": "UK",
+    "company_name": "SecureMail"
+  },
+  {
+    "name": "MailGuard Berlin",
+    "address": "300 Unter den Linden",
+    "city": "Berlin",
+    "state": "Berlin",
+    "postal_code": "10117",
+    "country": "Germany",
+    "company_name": "MailGuard"
+  },
+  {
+    "name": "MailGuard Munich",
+    "address": "400 Maximilianstrasse",
+    "city": "Munich",
+    "state": "Bavaria",
+    "postal_code": "80539",
+    "country": "Germany",
+    "company_name": "MailGuard"
+  },
+  {
+    "name": "ParcelShield Tokyo",
+    "address": "500 Marunouchi",
+    "city": "Tokyo",
+    "state": "Tokyo",
+    "postal_code": "100-0005",
+    "country": "Japan",
+    "company_name": "ParcelShield"
+  },
+  {
+    "name": "ParcelShield Osaka",
+    "address": "600 Umeda",
+    "city": "Osaka",
+    "state": "Osaka",
+    "postal_code": "530-0001",
+    "country": "Japan",
+    "company_name": "ParcelShield"
+  },
+  {
+    "name": "SafetyPost Sydney",
+    "address": "700 George St",
+    "city": "Sydney",
+    "state": "NSW",
+    "postal_code": "2000",
+    "country": "Australia",
+    "company_name": "SafetyPost"
+  }
+]
